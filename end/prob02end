@@ -1,0 +1,9 @@
+    fib 0 = (0 ,1)
+    fib n = (snd(fib (n-1)),fst(fib (n-1)) + snd(fib (n-1)))
+
+    fibNum n = fst(fib n)
+
+    fibList 0 = [fibNum 0]
+    fibList n =fibList (n-1) ++ [fibNum n]
+
+    prob02 =sum [x|x<- fibList 40 ,mod x 2 == 0, x < 4000000]
