@@ -10,4 +10,5 @@ Haskell Made Twitter Client
 * 円堂
 * [たちうさ](https://twitter.com/tatyusa419)
 * はぐるま
+* さかな
 * H山田
